@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+body{
+    background-color: rgba(255, 255, 255, 0.952);
+    font-family: "Bebas Neue", sans-serif;
+    font-style: normal;
+
+}
+.menuToogle{
+    display: flex;
+    justify-content:space-between;
+    width: 100vw;
+    align-items: center;
+    position: relative;
+    left: 10vw;
+}
+.menuToogle div{
+    width: 5vw;
+    
+}
+.containerFather{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    gap: 50px;}
+.containerHeader{
+
+    display: flex;
+    color: rgb(0, 0, 0);
+    position: relative;
+    font-size: 3.5vw;
+
+}
+.containerForm{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items:flex-start;
+    position: relative;
+    font-weight: 100;
+    font-size: 20px;
+}
+.formProduct{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100vh;
+    gap: 10px;
+    border-radius: 1%;
+    align-items: first baseline;
+    justify-content:top;
+}
+.formProduct input{
+    width: 200px;
+}
+#inputDesc{
+    height: 18vh;
+    width: 50vw;
+}
+#inputEstoque{
+    width: 60px;
+    height: 30px;
+}
